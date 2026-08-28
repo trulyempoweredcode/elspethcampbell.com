@@ -189,25 +189,10 @@
   color: var(--color-accent);
 }
 
-/* Hero overlay, deepened for THIS photograph.
-   The library default is rgba(0,0,0,0.55/0.40/0.60) and its weakest stop sits
-   at 50% height, which is exactly where the sun in her photograph sits. Measured
-   against the rendered capture, white text over the sun came out at 1.92:1 for
-   the h1 and 3.44:1 for the body copy, both under WCAG AA. A warm near-black at
-   a higher, flatter alpha keeps the sun reading as a golden bloom while putting
-   every hero element back over 4.5:1. Mobile crops tighter onto the sun, so it
-   takes a little more again. */
-.hero--image::before {
-  background: linear-gradient(180deg,
-    rgba(24, 16, 11, 0.62) 0%,
-    rgba(24, 16, 11, 0.60) 45%,
-    rgba(24, 16, 11, 0.68) 100%);
-}
-@media (max-width: 767px) {
-  .hero--image::before {
-    background: linear-gradient(180deg,
-      rgba(24, 16, 11, 0.68) 0%,
-      rgba(24, 16, 11, 0.66) 45%,
-      rgba(24, 16, 11, 0.72) 100%);
-  }
-}
+/* The hero is `hero--showcase hero--showcase-dark`, not `hero--image`.
+   `.hero--showcase::before` is display:none by design, so her photograph is
+   never dimmed: the frosted card carries the text instead. That is why there
+   is no overlay override here. Measured on the rendered page, the earlier
+   `hero--image` treatment could not hold both a readable heading and a
+   visible sun - deep enough for WCAG turned the sunset to mud at 1.25:1
+   behind the h1, and lighter than that failed outright. */

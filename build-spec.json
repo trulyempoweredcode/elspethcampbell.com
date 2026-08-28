@@ -4,11 +4,11 @@
   "reference": {
     "kind": "client-picked",
     "demo": "demo-massage-therapist",
-    "why": "She picked Style 8 on the onboarding form and pasted no demo URL, so Style 8 resolves through demo-design-tokens.md to demo-massage-therapist; its warm-mocha sand-and-shell tones are also the closest library match to her own flyer (a conch on pale sand), her golden-sunset photograph and her stated brand colour of yellows."
+    "why": "She picked Style 8 on the onboarding form and pasted no demo URL, so Style 8 resolves through demo-design-tokens.md to demo-massage-therapist; its warm-mocha sand-and-shell tones are also the closest library match to her own flyer (a conch on pale sand), her golden-sunset photograph and her stated brand colour of yellows. ONE DELIBERATE DEVIATION from that demo: the hero is hero--showcase hero--showcase-dark rather than the demo's hero--image, and the nav is solid rather than transparent. Her hero photograph is a centred-sun composition, and hero--image dims the whole picture to protect centred text. Measured on the rendered page that treatment could not hold both: deep enough for WCAG AA left the heading at 1.25:1 over the sun and flattened the sunset to brown mud, which is the washed-out failure the Polish Standard names. hero--showcase exists for exactly this case - it disables the overlay entirely and puts the text in a frosted card - so her photograph ships at full vibrancy and the copy is readable."
   },
   "palette_slug": "warm-mocha",
   "pairing_slug": "rounded-warm",
-  "hero_type": "hero hero--image",
+  "hero_type": "hero hero--showcase hero--showcase-dark",
   "nav_style": "default",
   "source_site": "https://www.elspethcampbell.com",
   "built_site": "https://trulyempoweredcode.github.io/elspethcampbell.com",
@@ -16,7 +16,6 @@
     {
       "slug": "index",
       "archetype": "home",
-      "nav_style": "transparent transparent-dark",
       "sections": [
         "nav",
         "hero",
