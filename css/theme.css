@@ -135,8 +135,8 @@
   width: 190px;
   height: 190px;
   transform: translateY(-50%);
-  background: url('../images/favicon.png') center / contain no-repeat;
-  opacity: 0.10;
+  background: url('../images/shell-mark.png') center / contain no-repeat;
+  opacity: 0.16;
   pointer-events: none;
   z-index: 0;
 }
@@ -178,4 +178,13 @@
   right: 0;
   height: 2px;
   background: linear-gradient(90deg, transparent, var(--color-secondary), transparent);
+}
+
+/* The palette's sea-teal accent, used only as fine detail on list markers, so
+   the page is not one note of brown. It is her "water" against her "yellows". */
+.checklist li svg {
+  color: var(--color-accent);
+}
+.quals-list__icon {
+  color: var(--color-accent);
 }
