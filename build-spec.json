@@ -109,7 +109,7 @@
       "sections": [
         "nav",
         "page-header",
-        "privacy",
+        "privacy-content",
         "footer"
       ]
     },
@@ -119,7 +119,7 @@
       "sections": [
         "nav",
         "page-header",
-        "cookies",
+        "cookies-content",
         "footer"
       ]
     }
@@ -159,13 +159,6 @@
       "slot": "images/service-coaching.jpg",
       "source": "client",
       "intent": "her own photograph of the garden water bowl with a rising ripple - the water feature she names in the Coaching draft"
-    },
-    {
-      "id": "about-sea",
-      "page": "about",
-      "slot": "images/about-sea.jpg",
-      "source": "client",
-      "intent": "her own photograph of clear turquoise water over pale rocks, behind the closing band on the About page"
     },
     {
       "id": "about-portrait",
@@ -290,5 +283,5 @@
   },
   "content_dropped": {},
   "repeating_archetype": "service-detail",
-  "slice_approved": null
+  "slice_approved": "2026-08-28"
 }
