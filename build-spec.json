@@ -10,7 +10,7 @@
   "pairing_slug": "rounded-warm",
   "hero_type": "hero hero--showcase hero--showcase-dark",
   "nav_style": "default",
-  "source_site": "https://www.elspethcampbell.com",
+  "source_site": "http://www.elspethcampbell.com",
   "built_site": "https://trulyempoweredcode.github.io/elspethcampbell.com",
   "pages": [
     {
@@ -260,28 +260,44 @@
     }
   ],
   "source_map": {
-    "psychotherapy": "psychosynthesis",
-    "yoga": "yoga",
-    "cambridge_class_times": "yoga",
-    "coaching_executives": "coaching",
-    "coaching-with-the-body": "coaching",
-    "coaching_programme": "coaching",
-    "client_comments": "coaching",
-    "contact": "contact",
-    "coaches_consultants": "DROPPED: supervision for coaches and consultants is not on the new site. The client supplied a complete six-page website draft on 26-08-2026 that deliberately repositions the practice around psychotherapy, yoga and somatic coaching, and drops the supervision and management-consultancy strands entirely.",
-    "consultants_comments": "DROPPED: testimonials for the supervision service, which the client's new draft removes.",
-    "career": "DROPPED: career transition and development is not one of the three services the client named on her onboarding form (psychotherapy, yoga, coaching) and appears nowhere in her new draft.",
-    "personality": "DROPPED: personality profiling belongs to the dropped career service.",
-    "systemic-management-practice": "DROPPED: the systemic organisational and management strand is retired. It survives only as a credential on the About page, where the client kept her MA in Systemic Organisational and Management Practice.",
-    "immersion-and-inspiration": "DROPPED: a leadership programme under the retired management strand.",
-    "foundation": "DROPPED: a programme under the retired management strand.",
-    "advanced": "DROPPED: a programme under the retired management strand.",
-    "comments-from-participants": "DROPPED: testimonials for the retired management programmes.",
-    "core-principles": "DROPPED: principles page for the retired management strand.",
-    "publications": "DROPPED: not carried into the new draft. Raised with the client on the content checklist in case she wants it back.",
-    "worked_with": "DROPPED: a corporate client list belonging to the retired management-consultancy positioning."
+    "psychotherapy.php": "psychosynthesis.html",
+    "yoga.php": "yoga.html",
+    "coaching_executives.php": "coaching.html",
+    "coaching-with-the-body.php": "coaching.html",
+    "coaching_programme.php": "coaching.html",
+    "client_comments.php": "coaching.html",
+    "contact.php": "contact.html",
+    "privacy.php": "privacy.html",
+    "index.php": "elspethcampbell.com",
+    "coaches_consultants.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. Supervision for coaches and consultants is not one of the three services she named on her onboarding form.",
+    "consultants_comments.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. Testimonials for that supervision service.",
+    "career.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. Career transition and development appears nowhere in her new draft.",
+    "personality.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. Personality profiling belongs to the dropped career service.",
+    "systemic-management-practice.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. The systemic organisational strand survives only as a credential on the About page, where her MA in Systemic Organisational and Management Practice is kept.",
+    "immersion-and-inspiration.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. A leadership programme under the retired strand.",
+    "foundation.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. A programme under the retired strand.",
+    "advanced.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. A programme under the retired strand.",
+    "comments-from-participants.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. Testimonials for the retired programmes.",
+    "core-principles.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. Principles page for the retired strand.",
+    "course-tutors.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. Tutor profiles for the retired training courses, including a second practitioner who is not part of the new practice.",
+    "taster.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. An introductory session for the retired training courses.",
+    "worked_with.php": "DROPPED: her live site is Campbell-Ozten Associates, a personal-development and leadership consultancy co-brand. On 26-08-2026 she supplied a complete six-page website draft that deliberately relaunches the domain as her solo psychotherapy, yoga and coaching practice, and this page belongs to the retired consultancy. A corporate client list belonging to the retired consultancy positioning.",
+    "publications.php": "DROPPED: the URL is in her 2018 sitemap but returns Page not found on the live site, so there is no content to carry over. Raised on the content checklist in case she wants a publications page rebuilt.",
+    "penna.php": "DROPPED: the URL is in her 2018 sitemap but returns Page not found on the live site, so there is no content to carry over.",
+    "links.php": "DROPPED: an outbound links page for the retired consultancy. Her own professional listings are carried instead, on the contact page and in the About credentials.",
+    "legal.php": "DROPPED: replaced by the new privacy.html and cookies-policy.html, which are written for the new practice and its contact form.",
+    "sitemap.php": "DROPPED: a hand-maintained HTML sitemap page for the old site. The new site ships a machine-readable sitemap.xml instead.",
+    "loweringdrawbridgefortress.pdf": "DROPPED: a PDF handout for the retired leadership programmes, not referenced anywhere in her new draft.",
+    "systemic-practice-%20coreprinciples-2018.pdf": "DROPPED: a 2018 PDF handout for the retired systemic management programme, not referenced anywhere in her new draft."
   },
-  "content_dropped": {},
+  "content_dropped": {
+    "psychotherapy.php": {
+      "As a Psychotherapist with an MA in Psychosynthesis": "Superseded by her own words. This paragraph is the 2018 Campbell-Ozten wording of what Psychosynthesis is; her 26-08-2026 draft rewrites the same ground at greater length on the new Psychosynthesis page, and the MA itself is carried on the About page credentials."
+    }
+  },
   "repeating_archetype": "service-detail",
-  "slice_approved": "2026-08-28"
+  "slice_approved": "2026-08-28",
+  "orphan_ok": {
+    "elspethcampbell.com": "Not an orphan. This is the site root, and every page links to it as href=\"index.html\". On a GitHub Pages project preview the root URL's last path segment is the repository name, so the reachability check looks for that string in the hrefs and cannot find it. Re-check after the site moves to her own domain."
+  }
 }
