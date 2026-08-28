@@ -1,0 +1,295 @@
+{
+  "client": "elspethcampbell.com",
+  "platform": "flat",
+  "reference": {
+    "kind": "client-picked",
+    "demo": "demo-massage-therapist",
+    "why": "She picked Style 8 on the onboarding form and pasted no demo URL, so Style 8 resolves through demo-design-tokens.md to demo-massage-therapist; its warm-mocha sand-and-shell tones are also the closest library match to her own flyer (a conch on pale sand), her golden-sunset photograph and her stated brand colour of yellows."
+  },
+  "palette_slug": "warm-mocha",
+  "pairing_slug": "rounded-warm",
+  "hero_type": "hero hero--image",
+  "nav_style": "default",
+  "source_site": "https://www.elspethcampbell.com",
+  "built_site": "https://trulyempoweredcode.github.io/elspethcampbell.com",
+  "pages": [
+    {
+      "slug": "index",
+      "archetype": "home",
+      "nav_style": "transparent transparent-dark",
+      "sections": [
+        "nav",
+        "hero",
+        "intro",
+        "blockquote",
+        "conditions",
+        "services-overview",
+        "testimonials",
+        "memberships",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "about",
+      "archetype": "about",
+      "sections": [
+        "nav",
+        "about-hero",
+        "my-journey",
+        "qualifications",
+        "approach",
+        "values",
+        "testimonials",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "psychosynthesis",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "intro",
+        "blockquote",
+        "approach",
+        "ways-of-working",
+        "my-story",
+        "testimonials",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "yoga",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "intro",
+        "blockquote",
+        "approach",
+        "classes",
+        "my-story",
+        "testimonials",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "coaching",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "intro",
+        "blockquote",
+        "approach",
+        "programme",
+        "my-story",
+        "testimonials",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "contact",
+      "archetype": "contact",
+      "sections": [
+        "nav",
+        "page-header",
+        "contact",
+        "testimonial",
+        "footer"
+      ]
+    },
+    {
+      "slug": "privacy",
+      "archetype": "legal",
+      "sections": [
+        "nav",
+        "page-header",
+        "privacy",
+        "footer"
+      ]
+    },
+    {
+      "slug": "cookies-policy",
+      "archetype": "legal",
+      "sections": [
+        "nav",
+        "page-header",
+        "cookies",
+        "footer"
+      ]
+    }
+  ],
+  "image_slots": [
+    {
+      "id": "home-hero",
+      "page": "index",
+      "slot": "images/hero-sea-sunset.jpg",
+      "source": "client",
+      "intent": "her own photograph of a low golden sun over the sea, light running up the wet sand - the water and the yellows she asked for, in one real asset"
+    },
+    {
+      "id": "home-portrait",
+      "page": "index",
+      "slot": "images/elspeth-portrait.jpg",
+      "source": "client",
+      "intent": "her own portrait, warm, seated, wearing a pearl necklace"
+    },
+    {
+      "id": "home-svc-psychosynthesis",
+      "page": "index",
+      "slot": "images/service-psychosynthesis.jpg",
+      "source": "generate",
+      "intent": "an open oyster shell on damp pale sand with a single pearl inside, soft iridescence, low warm side light, no people, no text"
+    },
+    {
+      "id": "home-svc-yoga",
+      "page": "index",
+      "slot": "images/service-yoga.jpg",
+      "source": "client",
+      "intent": "her own photograph seated in siddhasana, calm studio, plain wall"
+    },
+    {
+      "id": "home-svc-coaching",
+      "page": "index",
+      "slot": "images/service-coaching.jpg",
+      "source": "client",
+      "intent": "her own photograph of the garden water bowl with a rising ripple - the water feature she names in the Coaching draft"
+    },
+    {
+      "id": "about-sea",
+      "page": "about",
+      "slot": "images/about-sea.jpg",
+      "source": "client",
+      "intent": "her own photograph of clear turquoise water over pale rocks, behind the closing band on the About page"
+    },
+    {
+      "id": "about-portrait",
+      "page": "about",
+      "slot": "images/elspeth-about.jpg",
+      "source": "client",
+      "intent": "her own photograph seated in a garden in a pink top, three-quarter, warm daylight"
+    },
+    {
+      "id": "about-pearl",
+      "page": "about",
+      "slot": "images/pearl-in-oyster.jpg",
+      "source": "generate",
+      "intent": "a pearl forming inside an opened oyster shell, close, soft iridescent nacre, warm neutral background - the metaphor she uses for growth through wounding"
+    },
+    {
+      "id": "psycho-header",
+      "page": "psychosynthesis",
+      "slot": "images/header-shells.jpg",
+      "source": "generate",
+      "intent": "a beautifully textured shell resting on wet sand beside the sea, wide and atmospheric enough to carry a heading over it, warm light, no people"
+    },
+    {
+      "id": "psycho-candle",
+      "page": "psychosynthesis",
+      "slot": "images/candle-flame.jpg",
+      "source": "generate",
+      "intent": "a single lit candle, warm flame, dark soft background, quiet and contemplative"
+    },
+    {
+      "id": "psycho-dolls",
+      "page": "psychosynthesis",
+      "slot": "images/russian-dolls.jpg",
+      "source": "client",
+      "intent": "her own photograph of the nesting Russian dolls she uses in sessions and a client names in a testimonial"
+    },
+    {
+      "id": "yoga-header",
+      "page": "yoga",
+      "slot": "images/header-yoga.jpg",
+      "source": "client",
+      "intent": "her own photograph standing in tree pose in the practice room"
+    },
+    {
+      "id": "yoga-yinyang",
+      "page": "yoga",
+      "slot": "images/yin-yang.png",
+      "source": "client",
+      "intent": "her own gold yin-yang mark, used small as a section motif"
+    },
+    {
+      "id": "yoga-pose-1",
+      "page": "yoga",
+      "slot": "images/yoga-triangle.jpg",
+      "source": "client",
+      "intent": "her own photograph in parivritta trikonasana"
+    },
+    {
+      "id": "yoga-pose-2",
+      "page": "yoga",
+      "slot": "images/yoga-backbend.jpg",
+      "source": "client",
+      "intent": "her own photograph in urdhva dhanurasana"
+    },
+    {
+      "id": "yoga-pose-3",
+      "page": "yoga",
+      "slot": "images/yoga-warrior.jpg",
+      "source": "client",
+      "intent": "her own photograph in a standing warrior pose on a purple mat"
+    },
+    {
+      "id": "coaching-header",
+      "page": "coaching",
+      "slot": "images/header-water-bowl.jpg",
+      "source": "client",
+      "intent": "her own photograph of the garden water bowl, cropped wide for a page header"
+    },
+    {
+      "id": "coaching-bowl",
+      "page": "coaching",
+      "slot": "images/singing-bowl.jpg",
+      "source": "generate",
+      "intent": "a metal singing bowl with its wooden striker on a plain warm surface, soft daylight, no people"
+    },
+    {
+      "id": "coaching-figure",
+      "page": "coaching",
+      "slot": "images/bodhisattva.jpg",
+      "source": "generate",
+      "intent": "a small seated bodhisattva sculpture in a quiet interior, warm side light, shallow depth of field"
+    },
+    {
+      "id": "contact-header",
+      "page": "contact",
+      "slot": "images/header-shore.jpg",
+      "source": "client",
+      "intent": "her own photograph of the rocky shore and breaking water, calm and open, heading sits over it"
+    }
+  ],
+  "source_map": {
+    "psychotherapy": "psychosynthesis",
+    "yoga": "yoga",
+    "cambridge_class_times": "yoga",
+    "coaching_executives": "coaching",
+    "coaching-with-the-body": "coaching",
+    "coaching_programme": "coaching",
+    "client_comments": "coaching",
+    "contact": "contact",
+    "coaches_consultants": "DROPPED: supervision for coaches and consultants is not on the new site. The client supplied a complete six-page website draft on 26-08-2026 that deliberately repositions the practice around psychotherapy, yoga and somatic coaching, and drops the supervision and management-consultancy strands entirely.",
+    "consultants_comments": "DROPPED: testimonials for the supervision service, which the client's new draft removes.",
+    "career": "DROPPED: career transition and development is not one of the three services the client named on her onboarding form (psychotherapy, yoga, coaching) and appears nowhere in her new draft.",
+    "personality": "DROPPED: personality profiling belongs to the dropped career service.",
+    "systemic-management-practice": "DROPPED: the systemic organisational and management strand is retired. It survives only as a credential on the About page, where the client kept her MA in Systemic Organisational and Management Practice.",
+    "immersion-and-inspiration": "DROPPED: a leadership programme under the retired management strand.",
+    "foundation": "DROPPED: a programme under the retired management strand.",
+    "advanced": "DROPPED: a programme under the retired management strand.",
+    "comments-from-participants": "DROPPED: testimonials for the retired management programmes.",
+    "core-principles": "DROPPED: principles page for the retired management strand.",
+    "publications": "DROPPED: not carried into the new draft. Raised with the client on the content checklist in case she wants it back.",
+    "worked_with": "DROPPED: a corporate client list belonging to the retired management-consultancy positioning."
+  },
+  "content_dropped": {},
+  "repeating_archetype": "service-detail",
+  "slice_approved": null
+}
