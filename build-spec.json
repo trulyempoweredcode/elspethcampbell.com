@@ -174,9 +174,9 @@
     {
       "id": "yoga-yinyang",
       "page": "yoga",
-      "slot": "images/yoga-tree-square.jpg",
+      "slot": "images/yoga-plank.jpg",
       "source": "client",
-      "intent": "her own tree-pose photograph as a square, replacing the low-fidelity yin-yang clip art beside the Gibran quote"
+      "intent": "her own studio plank photograph, landscape 4:3, beside the Gibran quote; the tree-pose phone snapshot read as lower quality than the studio shots around it"
     },
     {
       "id": "yoga-pose-1",
@@ -188,9 +188,9 @@
     {
       "id": "yoga-pose-2",
       "page": "yoga",
-      "slot": "images/yoga-backbend-wide.jpg",
+      "slot": "images/yoga-backbend-wide-2.jpg",
       "source": "client",
-      "intent": "her own urdhva dhanurasana photograph, recut 16:10 from the high-res original so head, hands and feet are all inside the card frame"
+      "intent": "her own urdhva dhanurasana photograph, recut 16:10 lower in the frame so hands and feet sit inside the card"
     },
     {
       "id": "yoga-pose-3",
