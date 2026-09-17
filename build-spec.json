@@ -4,11 +4,11 @@
   "reference": {
     "kind": "client-picked",
     "demo": "demo-massage-therapist",
-    "why": "She picked Style 8 on the onboarding form and pasted no demo URL, so Style 8 resolves through demo-design-tokens.md to demo-massage-therapist; its warm-mocha sand-and-shell tones are also the closest library match to her own flyer (a conch on pale sand), her golden-sunset photograph and her stated brand colour of yellows. ONE DELIBERATE DEVIATION from that demo: the hero is hero--showcase hero--showcase-dark rather than the demo's hero--image, and the nav is solid rather than transparent. Her hero photograph is a centred-sun composition, and hero--image dims the whole picture to protect centred text. Measured on the rendered page that treatment could not hold both: deep enough for WCAG AA left the heading at 1.25:1 over the sun and flattened the sunset to brown mud, which is the washed-out failure the Polish Standard names. hero--showcase exists for exactly this case - it disables the overlay entirely and puts the text in a frosted card - so her photograph ships at full vibrancy and the copy is readable. ROUND 1 (change request 204, 2026-09-17): she asked for the homepage rebuilt as five sections of her own - a photograph-and-text opening, an image band with her invitation copy, the list of what brings people here, an image band with her practice statement and the booking button, and a row of membership logos - so the hero is now hero--half with her portrait, and the three service cards and homepage testimonials came off the homepage at her request (the testimonials remain on every other page)."
+    "why": "She picked Style 8 on the onboarding form and pasted no demo URL, so Style 8 resolves through demo-design-tokens.md to demo-massage-therapist; its warm-mocha sand-and-shell tones are also the closest library match to her own flyer (a conch on pale sand), her golden-sunset photograph and her stated brand colour of yellows. ONE DELIBERATE DEVIATION from that demo: the hero is hero--showcase hero--showcase-dark rather than the demo's hero--image, and the nav is solid rather than transparent. Her hero photograph is a centred-sun composition, and hero--image dims the whole picture to protect centred text. Measured on the rendered page that treatment could not hold both: deep enough for WCAG AA left the heading at 1.25:1 over the sun and flattened the sunset to brown mud, which is the washed-out failure the Polish Standard names. hero--showcase exists for exactly this case - it disables the overlay entirely and puts the text in a frosted card - so her photograph ships at full vibrancy and the copy is readable. ROUND 1 (change request 204, 2026-09-17): she asked for the homepage rebuilt as five sections of her own - a photograph-and-text opening, an image band with her invitation copy, the list of what brings people here, an image band with her practice statement and the booking button, and a row of membership logos - so the hero is now hero--half with her portrait, and the three service cards and homepage testimonials came off the homepage at her request (the testimonials remain on every other page). Rick, same day: the hero--half blew her portrait up and cropped it, so the opening is now a contained split inside the hero wrapper with the whole 3:4 portrait framed; the two bands she will send images for carry generated abstract stand-ins, and her practice statement is a full-width image band with centred text."
   },
   "palette_slug": "warm-mocha",
   "pairing_slug": "rounded-warm",
-  "hero_type": "hero hero--half",
+  "hero_type": "hero",
   "nav_style": "default",
   "source_site": "http://www.elspethcampbell.com",
   "built_site": "https://trulyempoweredcode.github.io/elspethcampbell.com",
@@ -123,18 +123,11 @@
   ],
   "image_slots": [
     {
-      "id": "home-hero",
-      "page": "index",
-      "slot": "images/hero-sea-sunset.jpg",
-      "source": "client",
-      "intent": "her own photograph of a low golden sun over the sea, light running up the wet sand - now the image half of the invitation band, a stand-in until she sends the background image she said she would choose for it"
-    },
-    {
       "id": "home-portrait",
       "page": "index",
       "slot": "images/elspeth-portrait.jpg",
       "source": "client",
-      "intent": "her own portrait, warm, seated, wearing a pearl necklace - the image half of the hero--half opening she asked for in round 1"
+      "intent": "her own portrait, warm, seated, wearing a pearl necklace - framed whole at 3:4 beside the heading, never bleed-cropped"
     },
     {
       "id": "about-portrait",
@@ -235,11 +228,18 @@
       "intent": "her own photograph of the rocky shore and breaking water, calm and open, heading sits over it"
     },
     {
-      "id": "home-cta-shore",
+      "id": "home-band-water",
       "page": "index",
-      "slot": "images/header-shore.jpg",
-      "source": "client",
-      "intent": "her own photograph of clear turquoise water over rocks - the image half of the practice-statement band, a stand-in until she sends the background image she said she would choose for it"
+      "slot": "images/band-abstract-water.jpg",
+      "source": "generate",
+      "intent": "abstract watercolour wash in the warm-mocha palette with the spiral of a shell, no text, no people - a stand-in until she sends the background image she said she would choose for section 2"
+    },
+    {
+      "id": "home-band-sand",
+      "page": "index",
+      "slot": "images/band-abstract-sand.jpg",
+      "source": "generate",
+      "intent": "wide abstract field of soft mocha, sand and gold bands, low contrast, room for centred text - a stand-in until she sends the background image she said she would choose for section 4"
     }
   ],
   "source_map": {
