@@ -160,37 +160,37 @@
     {
       "id": "psycho-dolls",
       "page": "psychosynthesis",
-      "slot": "images/russian-dolls.jpg",
+      "slot": "images/russian-dolls-portrait.jpg",
       "source": "client",
-      "intent": "her own photograph of the nesting Russian dolls she uses in sessions and a client names in a testimonial"
+      "intent": "her own nesting-doll photograph as a 3:4 portrait, the whole set visible including the tallest doll"
     },
     {
       "id": "yoga-header",
       "page": "yoga",
-      "slot": "images/header-yoga.jpg",
-      "source": "client",
-      "intent": "her own photograph standing in tree pose in the practice room"
+      "slot": "images/header-yoga-studio.jpg",
+      "source": "generate",
+      "intent": "an empty, calm Iyengar studio in the colours of her own practice-room photographs (sage wall, oak floor, one purple mat, window light) - a wide band cannot hold a full-body pose without cutting her, so the header is the room and her poses sit in the cards below"
     },
     {
       "id": "yoga-yinyang",
       "page": "yoga",
-      "slot": "images/yin-yang.png",
+      "slot": "images/yoga-tree-square.jpg",
       "source": "client",
-      "intent": "her own gold yin-yang mark, used small as a section motif"
+      "intent": "her own tree-pose photograph as a square, replacing the low-fidelity yin-yang clip art beside the Gibran quote"
     },
     {
       "id": "yoga-pose-1",
       "page": "yoga",
-      "slot": "images/yoga-triangle.jpg",
+      "slot": "images/yoga-triangle-wide.jpg",
       "source": "client",
-      "intent": "her own photograph in parivritta trikonasana"
+      "intent": "her own parivritta trikonasana photograph, recut 16:10 from the high-res original so the raised hand and both feet are inside the card frame"
     },
     {
       "id": "yoga-pose-2",
       "page": "yoga",
-      "slot": "images/yoga-backbend.jpg",
+      "slot": "images/yoga-backbend-wide.jpg",
       "source": "client",
-      "intent": "her own photograph in urdhva dhanurasana"
+      "intent": "her own urdhva dhanurasana photograph, recut 16:10 from the high-res original so head, hands and feet are all inside the card frame"
     },
     {
       "id": "yoga-pose-3",
@@ -202,9 +202,9 @@
     {
       "id": "coaching-header",
       "page": "coaching",
-      "slot": "images/header-water-bowl.jpg",
+      "slot": "images/header-water-bowl-2.jpg",
       "source": "client",
-      "intent": "her own photograph of the garden water bowl, cropped wide for a page header"
+      "intent": "her own garden water-bowl photograph with the lower fifth cropped away, which is where the old stock-site watermark sat"
     },
     {
       "id": "coaching-bowl",
@@ -216,9 +216,9 @@
     {
       "id": "coaching-figure",
       "page": "coaching",
-      "slot": "images/bodhisattva.jpg",
+      "slot": "images/bodhisattva-square.jpg",
       "source": "generate",
-      "intent": "a small seated bodhisattva sculpture in a quiet interior, warm side light, shallow depth of field"
+      "intent": "the seated bodhisattva figure recut square so it fills more of the lead column beside the long text"
     },
     {
       "id": "contact-header",
